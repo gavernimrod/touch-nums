@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Touch Nums</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body onload="init()">
+  <div class="container">
+    <h1>Touch Nums</h1>
+    <h2 class="next-num"></h2>
+    Next Number: <span class="next-num"></span>
+    </br> 
+    <button class="easy" onclick="easyGame()">Easy</button>
+    <button class="medium" onclick="mediumGame()">Medium</button>
+    <button class="hard" onclick="hardGame()">Hard</button>
+    <table boarder="1">
+      <tbody class="board"></tbody>
+    </table>
+    <h3 class="won">YOU WON!</h3>
+    <button onclick="init()" class="restart">Restart?</button>
+    <h4 class="timer"></h4>
+  </div>
+  <script src="js/functions.js"></script>
+  <script src="js/game.js"></script>
+</body>
+
+</html>

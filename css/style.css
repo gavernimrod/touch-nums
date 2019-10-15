@@ -1,0 +1,58 @@
+.container {
+  text-align: center;
+  background-color: beige
+}
+
+
+table, th, td {
+    height: 100px;
+    width: 300px;
+    transition: .3s;
+    margin: auto;
+    text-align: center;
+    border: 2px gray solid;
+    border-radius: 15px;
+    background-color: rgb(89, 90, 89);
+    font-size: 30px;
+  }
+  .board td:hover {
+    background-color: rgb(192, 183, 16);
+}
+
+.board td:active {
+    background-color: grey
+}
+
+.restart-btn {
+  margin-top: 15px;
+}
+
+.won{
+  display: none;
+  margin-top: 25px;
+  color: rgb(0, 139, 76);
+  font-weight: bold;
+}
+
+.easy {
+  color: rgb(0, 139, 76);
+  font-size: 15px
+}
+
+.medium {
+  color: rgb(0, 46, 139);
+  font-size: 15px
+
+}
+
+.hard {
+  color: rgb(107, 4, 4);
+  font-size: 15px
+
+}
+.next-num {
+  font-weight: bold;
+  margin-top: 25px;
+  font-size: 15px;
+}
+
